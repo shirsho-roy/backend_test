@@ -1,0 +1,23 @@
+{
+  "name": "express_server",
+  "version": "1.0.0",
+  "description": "base server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Shirsho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
